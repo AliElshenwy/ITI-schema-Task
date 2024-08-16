@@ -11,7 +11,7 @@ namespace ITI_schema
             iTIDbContext itiDbContext = new iTIDbContext();
                 
 
-            itiDbContext.Database.Migrate();
+            // itiDbContext.Database.Migrate();
 
             itiDbContext.Students.Where(S => S.ID == 0);
         }
